@@ -1,27 +1,28 @@
 {
   "settings": {
-    "name": "StarMC Applet Updator",
+    "name": "starmcappletupdator",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
+      "name": "colorm",
+      "title": "ColorM",
       "styling": {
-        "primaryColor": "#c0a375",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 5,
+    "uniqCompNum": 1,
     "versionPublish": "3.9.2",
     "publishType": "github"
   },
@@ -38,43 +39,50 @@
       "components": [
         {
           "_styles": {
-            ".mbr-section-title, p": {
+            ".display-1": {
+              "font-weight": "700",
               "color": "#fff"
             },
-            ".mbr-section-title": {
-              "font-size": "100px"
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
             },
-            ".lead P": {
-              "font-size": "25px"
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000"
             }
           },
+          "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-0",
+          "_name": "call3",
+          "_anchor": "call3-0",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
             "parallax": true,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#f3c012",
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#ecf0f1",
             "bgColorRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#e74c3c",
             "showText": true,
-            "showButton": false
+            "showTitle": true,
+            "showButtons": false
           },
-          "title": "No Current Updates",
-          "text": "<p><b>Check Back Later!</b></p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+          "text": "Check back later!",
+          "title": "No updates at the moment!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">see live demo</a>"
         }
       ]
     }
